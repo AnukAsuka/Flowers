@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UFT-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewpoint" content="witdh=device-with; initial-scale=1.0">
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="./flower.css">
+        <title>flowers.mn</title>
+    </head>
+    <body>
+      <div class="swiper-container">
+        <div class="swiper mySwiper swiper-h">
+          <div class="swiper-wrapper">
+            <div class="header swiper-slide">
+              <div class="content">
+                <h1>Green Mind Green Life</h1>
+                <p>"Lorem ipsum dolor, sit amet consectetur adipisicing."</p>
+              </div>
+
+                <input type="checkbox" id="active">
+                <label for="active" class="menu-btn"><i class="fas fa-water"></i></label>
+                <div class="navbar">
+                  <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Feedback</a></li>
+                  </ul>
+                </div>
+
+
+                
+              <div class="social-links">
+                <a href="">facebook</a>
+                <a href="">instagram</a>
+                <a href="">youtube</a>
+                <a href="">twitter</a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper mySwiper2 swiper-v">
+                <div class="swiper-wrapper">
+                  <div class="zero swiper-slide">
+                    <section>
+                      <div class="hero">
+                        <h2>Scroll Down</h2>
+                        <div class="flower">
+                          <img src="./butterfly2.png" alt="">
+                          <img src="./butterfly2.png" alt="">
+                          <img src="./butterfly2.png" alt="">
+                          <img src="./butterfly2.png" alt="">
+                          <img src="./butterfly2.png" alt="">
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div class="one swiper-slide">
+                    <div class="text">
+                      <h1>Monstera</h1>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, magni fugit nesciunt sequi nostrum accusamus mollitia quod vero expedita. Nostrum tempore voluptatum.</p>
+                      <button type="button">More</button>
+                    </div>
+                    <div class="text">
+                      <div class="pic pic1"></div>
+                    </div>
+                  </div>
+                  <div class="two swiper-slide">
+                    <div class="text">
+                      <h1>Euphorbia</h1>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, magni fugit nesciunt sequi nostrum accusamus mollitia quod vero expedita. Nostrum tempore voluptatum, ad consequuntur incidunt sint et quos laudantium eos. lore</p>
+                      <button type="button">More</button>
+                    </div>
+                    <div class="text">
+                      <div class="pic pic2"></div>
+                    </div>
+                  </div>
+                  <div class="three swiper-slide">
+                    <div class="text">
+                      <h1>Schefflera</h1>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, magni fugit nesciunt sequi nostrum accusamus mollitia quod vero expedita. Nostrum tempore voluptatum, ad consequuntur incidunt sint et quos laudantium eos.</p>
+                      <button type="button">More</button>
+                    </div>
+                    <div class="text">
+                      <div class="pic pic3"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+            <div class="four swiper-slide">
+              <div class="container">
+                <div class="box">
+                  <div class="content">
+                    <img src="./flower17.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="content">
+                    <img src="./flower18.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="content">
+                    <img src="./flower19.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="content">
+                    <img src="./flower16.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="content">
+                    <img src="./flower23.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="content">
+                    <img src="./flower22.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="content">
+                    <img src="./flower.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+      <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 50,
+        
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          dynamicBullets: true,
+        },
+      });
+      var swiper2 = new Swiper(".mySwiper2", {
+        direction: "vertical",
+        spaceBetween: 50,
+        mousewheel: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          dynamicBullets: true,
+        },
+      });
+    </script>
+    </body>
+</html>
